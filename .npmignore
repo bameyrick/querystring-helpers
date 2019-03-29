@@ -7,6 +7,6 @@ tests/
 .babelrc
 .editorconfig
 .gitignore
-karma.conf.json
+karma.conf.js
 tsconfig.json
 tslint.json
