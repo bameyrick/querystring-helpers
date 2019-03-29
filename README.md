@@ -54,10 +54,10 @@ Returns an string with query string parameters set
 | url              | string | A URL you want to get querystring parameters for        | true     | `window.location.href` |
 
 ```javascript
-import { getQueryStringParams } from 'querystring-helpers';
+import { setQueryStringParams } from 'querystring-helpers';
 
 
-getQueryStringParams({ a: 'cow', b: 'attack' }, 'https://example.co.uk?a=duck');
+setQueryStringParams({ a: 'cow', b: 'attack' }, 'https://example.co.uk?a=duck');
 
 /* Result
 https://example.co.uk?a=cow&b=attack
